@@ -82,8 +82,7 @@ const empleado={
         superior: "ITSQMET",
     }
 }
-
-let{nombre1, apellido1, estudios:{primaria, secundaria, superior}}=empleado;
+const{nombre1, apellido1, estudios:{primaria, secundaria, superior}}=empleado;
 console.log(nombre1);
 console.log(primaria);
 console.log(superior);
